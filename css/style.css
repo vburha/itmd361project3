@@ -156,7 +156,7 @@ main {
 
 /**Media queries will go under here**/
 
-/**This doesn't seem to work on anything besides Firefox???**/
+/**Dark mode: This doesn't seem to work on anything besides Firefox???**/
 @media screen and (prefers-color-scheme: dark) {
   :root {
     body {
@@ -210,5 +210,12 @@ main {
     .songbox ul li {
       color: #701E6D;
     }
+  }
+}
+
+/**Adding padding to the page to make it look better, but only on desktops**/
+@media screen and (min-width: 1em){
+  body {
+    width: 85%;
   }
 }
