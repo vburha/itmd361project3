@@ -216,6 +216,7 @@ main {
 /**Adding padding to the page to make it look better, but only on desktops**/
 @media screen and (min-width: 1em){
   body {
+    position: relative;
     width: 80%;
     left: 10%;
     right: 10%;
