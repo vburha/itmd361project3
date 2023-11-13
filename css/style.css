@@ -207,5 +207,8 @@ main {
       color: #701E6D;
       width: 100%;
     }
+    .songbox ul li {
+      color: #701E6D;
+    }
   }
 }
