@@ -156,7 +156,7 @@ main {
 
 /**Media queries will go under here**/
 
-@media (prefers-color-scheme: dark) {
+@media screen and (prefers-color-scheme: dark) {
   :root {
     body {
       background-color: #701E6D;
