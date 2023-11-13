@@ -156,6 +156,7 @@ main {
 
 /**Media queries will go under here**/
 
+/**This doesn't seem to work on anything besides Firefox???**/
 @media screen and (prefers-color-scheme: dark) {
   :root {
     body {
@@ -170,13 +171,13 @@ main {
       margin: 0 0.313rem 0 0;
       padding: 0;
       color: #DCCCDF;
-      text-shadow: 0.125rem 0.063rem #701E6D;
+      text-shadow: 0.125rem 0.063rem #FFF;
     }
     nav div ul li a {
       display: block;
       text-decoration: none;
-      background-color: #FFF;
-      color: #DCCCDF;
+      background-color: #DCCCDF;
+      color: #701E6D;
       padding: 0.313rem;
     }
     nav {
@@ -199,6 +200,12 @@ main {
       clear: left;
       padding: 0;
       margin: 0;
+    }
+    #resumehdr {
+      text-align: center;
+      background-color: #DCCCDF;
+      color: #701E6D;
+      width: 100%;
     }
   }
 }
