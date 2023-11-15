@@ -154,6 +154,9 @@ main {
   list-style-type: none;
 }
 
+#cursorbutton {
+  display: inline-block;
+}
 /**Media queries will go under here**/
 
 /**Dark mode: This doesn't seem to work on anything besides Firefox???**/
