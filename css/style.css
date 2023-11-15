@@ -161,6 +161,10 @@ main {
   :root {
     body {
       background-color: #701E6D;
+      position: relative;
+      width: 80%;
+      left: 10%;
+      right: 10%;
     }
     p, h1, h2, h3, h4, h5, h6, li {
       font-family: "Lato", sans-serif;
@@ -214,7 +218,7 @@ main {
 }
 
 /**Adding padding to the page to make it look better, but only on desktops**/
-@media screen and (min-width: 24.375em){
+@media screen and (max-width: 24.375em){
   body {
     position: relative;
     width: 80%;
