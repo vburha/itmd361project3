@@ -5,7 +5,7 @@ function init(){
     cursorarea.style.cursor = url('http://www.rw-designer.com/cursor-extern.php?id=114440'), url('.media/sanrio-cinnamoroll.ani'), help;
   }
   var cursorbutton = document.getElementById('cursorbutton');
-  cursorbutton.addEventListener('click', cursorfunction);
+  cursorbutton.addEventListener('click', alert('worked'));
   
   //Fullscreen option
   window.requestFullscreen(auto);
