@@ -161,62 +161,60 @@ main {
 
 /**Dark mode: This doesn't seem to work on anything besides Firefox???**/
 @media screen and (prefers-color-scheme: dark) {
-  :root {
-    body {
-      background-color: #701E6D;
-      position: relative;
-      width: 80%;
-      left: 10%;
-      right: 10%;
-    }
-    p, h1, h2, h3, h4, h5, h6, li {
-      font-family: "Lato", sans-serif;
-      color: #FFF;
-    }
-    nav div h2 {
-      display: inline-block;
-      margin: 0 0.313rem 0 0;
-      padding: 0;
-      color: #DCCCDF;
-      text-shadow: 0.125rem 0.063rem #FFF;
-    }
-    nav div ul li a {
-      display: block;
-      text-decoration: none;
-      background-color: #DCCCDF;
-      color: #701E6D;
-      padding: 0.313rem;
-    }
-    nav {
-      border-style: outset;
-      border-color: #DCCCDF;
-      width: 100%;
-      height: 2.125rem;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-    }
-    #hdrmovies, #hdrsongs, #hdrhome {
-      background: -webkit-linear-gradient(#DCCCDF, #FFFFF);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    header p {
-      color: #DCCCDF;
-      display: block;
-      clear: left;
-      padding: 0;
-      margin: 0;
-    }
-    #resumehdr {
-      text-align: center;
-      background-color: #DCCCDF;
-      color: #701E6D;
-      width: 100%;
-    }
-    .songbox ul li {
-      color: #701E6D;
-    }
+  body {
+    background-color: #701E6D;
+    position: relative;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+  }
+  p, h1, h2, h3, h4, h5, h6, li {
+    font-family: "Lato", sans-serif;
+    color: #FFF;
+  }
+  nav div h2 {
+    display: inline-block;
+    margin: 0 0.313rem 0 0;
+    padding: 0;
+    color: #DCCCDF;
+    text-shadow: 0.125rem 0.063rem #FFF;
+  }
+  nav div ul li a {
+    display: block;
+    text-decoration: none;
+    background-color: #DCCCDF;
+    color: #701E6D;
+    padding: 0.313rem;
+  }
+  nav {
+    border-style: outset;
+    border-color: #DCCCDF;
+    width: 100%;
+    height: 2.125rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  #hdrmovies, #hdrsongs, #hdrhome {
+    background: -webkit-linear-gradient(#DCCCDF, #FFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  header p {
+    color: #DCCCDF;
+    display: block;
+    clear: left;
+    padding: 0;
+    margin: 0;
+  }
+  #resumehdr {
+    text-align: center;
+    background-color: #DCCCDF;
+    color: #701E6D;
+    width: 100%;
+  }
+  .songbox ul li {
+    color: #701E6D;
   }
 }
 
