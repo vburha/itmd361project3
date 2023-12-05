@@ -230,5 +230,10 @@ main {
 
 /**Maps rules**/
 #map {
-  height: 80%;
+  height: 100%;
+}
+
+#mapwrapper {
+  width: 37.5rem;
+  height: 50rem;
 }
